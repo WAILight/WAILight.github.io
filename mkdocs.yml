@@ -1,0 +1,27 @@
+site_name: WAILight
+site_url: https://WAILight.github.io/
+site_description: Self-Auditing Vision Measurement System for Forensic Science.
+repo_url: https://github.com/WAILight/WAILight.github.io
+edit_uri: edit/main/docs/
+theme:
+    name: material
+    logo: img/logo.jpg
+    favicon: img/favicon.ico
+markdown_extensions:
+    - toc:
+        baselevel: 2
+        permalink: "#"
+    - attr_list
+    - sane_lists
+plugins:
+    - search
+    # https://github.com/soulless-viewer/mkdocs-video
+    - mkdocs-video
+    # https://github.com/timvink/mkdocs-table-reader-plugin
+    - table-reader
+nav:
+  - 'Home': index.md
+  - 'Hardware': hardware.md
+  - 'Publications': publications.md
+  - 'Team': team.md
+
